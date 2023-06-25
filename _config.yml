@@ -39,6 +39,7 @@ include:
 # to override the default setting.
 exclude:
   - temp/
+  - .vscode/
   # - Gemfile
 #   - Gemfile.lock
 #   - node_modules
