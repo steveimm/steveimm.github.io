@@ -1,11 +1,7 @@
 main:
-  - title: "Home"
-    url: /home/
+  - title: "Resume"
+    url: /resume
   - title: "Posts"
     url: /posts/
-  - title: "Categories"
-    url: /categories/
-  - title: "Tags"
-    url: /tags/
-  - title: "About"
-    url: /about/
+  - title: "Projects"
+    url: /projects/
