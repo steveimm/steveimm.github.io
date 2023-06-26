@@ -74,7 +74,7 @@ author:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/steve-imm"
-    - label: "Download PDF"
+    - label: "Full Resume (PDF)"
       icon: "fa fa-fw fa-download"
       url: "https://drive.google.com/file/d/1LB4RXVySMv--WbK_VqQNBRwk6j6i5hpj/view?usp=sharing"
 
@@ -94,10 +94,12 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       read_time: true
-      comments: true
-      share: true
+      comments: false
+      share: false
+      toc: true
+      toc_sticky: true
       related: true
   # _pages
   - scope:
