@@ -39,7 +39,8 @@ include:
 # to override the default setting.
 exclude:
   - temp/
-  # - Gemfile
+  - .vscode/
+  - scripts/
 #   - Gemfile.lock
 #   - node_modules
 #   - vendor/bundle/
@@ -59,14 +60,23 @@ plugins:
 author:
   name   : "Steve Andreas Immanuel"
   # avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : ""
   links:
+    - label: "Email"
+      icon: "fa fa-fw fa-envelope"
+      url: "mailto:iam.steve.immanuel@gmail.com"
+    - label: "Phone"
+      icon: "fa fa-fw fa-phone fa-flip-horizontal"
+      url: "tel:+621099851378"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/SteveImmanuel"
-    - label: "Instagram"
+    - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/steve-imm"
+    - label: "Full Resume (PDF)"
+      icon: "fa fa-fw fa-download"
+      url: "https://drive.google.com/file/d/1LB4RXVySMv--WbK_VqQNBRwk6j6i5hpj/view?usp=sharing"
 
 footer:
   links:
@@ -84,10 +94,12 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       read_time: true
-      comments: true
-      share: true
+      comments: false
+      share: false
+      toc: true
+      toc_sticky: true
       related: true
   # _pages
   - scope:
@@ -109,3 +121,7 @@ atom_feed:
   hide: true
 
 masthead_title: "Home"
+
+title_separator: "|"
+
+repository: "SteveImmanuel/SteveImmanuel.github.io"
