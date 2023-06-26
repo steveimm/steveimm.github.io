@@ -36,6 +36,8 @@ cat >> _posts/$FILENAME << 'EOF'
 title: <UPDATE FULL TITLE>
 categories:
   - Posts
+classes:
+  - wider-content
 tags:
   - <UPDATE TAGS>
 ---
