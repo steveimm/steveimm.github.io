@@ -67,10 +67,13 @@ author:
       url: "mailto:iam.steve.immanuel@gmail.com"
     - label: "Phone"
       icon: "fa fa-fw fa-phone fa-flip-horizontal"
-      url: "tel:+621099851378"
+      url: "tel:+821099851378"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/SteveImmanuel"
+    - label: "GitLab"
+      icon: "fab fa-fw fa-gitlab"
+      url: "https://gitlab.informatika.org/SteveImmanuel"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/steve-imm"
@@ -109,9 +112,9 @@ defaults:
       layout: single
       author_profile: true
 
-category_archive:
-  type: liquid
-  path: /categories/
+# category_archive:
+#   type: liquid
+#   path: /categories/
 
 tag_archive:
   type: liquid

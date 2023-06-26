@@ -3,8 +3,7 @@ permalink: /resume
 layout: plain
 title: Resume
 author_profile: true
-toc: true
-toc_sticky: true
+classes: wide
 ---
 # Education
 
