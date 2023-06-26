@@ -40,7 +40,7 @@ include:
 exclude:
   - temp/
   - .vscode/
-  # - Gemfile
+  - scripts/
 #   - Gemfile.lock
 #   - node_modules
 #   - vendor/bundle/
