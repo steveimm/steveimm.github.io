@@ -71,7 +71,7 @@ Place the plane into your scene and you will get a very big plane blocking your 
 </div>
 <br>
 
-If you encounter a problem where you have a **pink-colored object**, I recommend you check [my other tutorial](https://hackmd.io/WhMhLb1MRLSkHqxF1tYBGA) on the `Scene Setup` section to address this issue.
+If you encounter a problem where you have a **pink-colored object**, I recommend you check [my other tutorial](/posts/liquid-wobble/#scene-setup) on the `Scene Setup` section to address this issue.
 {: .notice--info}
 
 ## Snow Trail Shader

@@ -65,7 +65,7 @@ Drag the created VFX graph unto the scene. You should get the following result.
 </div>
 <br>
 
-If you encounter a problem when setting up the URP, I recommend you check [my other tutorial](https://hackmd.io/WhMhLb1MRLSkHqxF1tYBGA) on the `Scene Setup` subsection.
+If you encounter a problem when setting up the URP, I recommend you check [my other tutorial](/posts/liquid-wobble/#scene-setup) on the `Scene Setup` subsection.
 {: .notice--info}
 
 ## Portal VFX Graph

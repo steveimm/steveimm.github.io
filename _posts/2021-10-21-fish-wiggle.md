@@ -66,7 +66,7 @@ Drag the `coralfish.fbx` into your scene and the fish model should pop right up 
 </div>
 <br>
 
-If you encounter a problem where you have a **pink-colored object**, I recommend you check [my other tutorial](https://hackmd.io/WhMhLb1MRLSkHqxF1tYBGA) on the `Scene Setup` section to address this issue.
+If you encounter a problem where you have a **pink-colored object**, I recommend you check [my other tutorial](/posts/liquid-wobble/#scene-setup) on the `Scene Setup` section to address this issue.
 {: .notice--info}
 
 ## Wiggle Shader
