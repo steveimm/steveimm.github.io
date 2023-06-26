@@ -2,6 +2,8 @@
 title: Snow Trail Effect in Unity using Shader Graph
 categories:
   - Posts
+classes:
+  - wider-content
 tags:
   - Unity
 ---
