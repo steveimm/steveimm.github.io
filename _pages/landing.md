@@ -15,3 +15,8 @@ If you want to know more about me, check out my [resume](/resume).
 Sometimes, I write [posts](/posts) about tutorials, theoretical knowledges, codes, and other interesting stuffs.
 
 I also have several [projects and some old assignments](/projects) which might be worth checking out. 
+
+You can find me on:
+- [Github](https://github.com/SteveImmanuel)
+- [LinkedIn](https://www.linkedin.com/in/steve-imm)
+- [Email](mailto:iam.steve.immanuel@gmail.com)
