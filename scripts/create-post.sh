@@ -12,8 +12,8 @@ if [ -z "$TITLE" ]; then
 fi
 
 read -p "Year ($(date +%Y)): " YEAR
-read -p "Month ($(date +%m)):" MONTH
-read -p "Day ($(date +%d)):" DAY
+read -p "Month ($(date +%m)): " MONTH
+read -p "Day ($(date +%d)): " DAY
 
 if [ -z "$YEAR" ]; then
   YEAR=`date +%Y`
