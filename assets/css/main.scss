@@ -24,3 +24,9 @@ html {
     max-width: 1600px;
   }
 }
+
+.grid__item {
+  .archive__item-excerpt {
+    display: block;
+  }
+}
