@@ -49,8 +49,8 @@ Feb 2021 - Aug 2021
 - Refactored and created an end-to-end testing mechanism that is easily maintainable and extensible
 
 # Publications
-- **Steve Andreas Immanuel** and Cheol Jeong, "Lightweight Recurrent Cross-modal Encoder for Video Question Answering," *Knowledge-Based System* (pending)
-- Vania Velda, **Steve Andreas Immanuel**, Willy Fitra Hendria, and Cheol Jeong, "Improving distinctiveness in video captioning with text-video similarity," *Image and Vision Computing*, June 2023.
+- **Steve Andreas Immanuel** and Cheol Jeong, "Lightweight Recurrent Cross-modal Encoder for Video Question Answering," [*Knowledge-Based System*](https://www.sciencedirect.com/journal/knowledge-based-systems), July 2023.
+- Vania Velda, **Steve Andreas Immanuel**, Willy Fitra Hendria, and Cheol Jeong, ["Improving distinctiveness in video captioning with text-video similarity,"](https://authors.elsevier.com/c/1hKNExnVKBE-2) [*Image and Vision Computing*](https://www.sciencedirect.com/journal/image-and-vision-computing), June 2023.
 
 # Skills
 - Programming languages: Python, NodeJS, C#, and so on...
