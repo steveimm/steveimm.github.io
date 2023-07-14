@@ -31,9 +31,9 @@ FILENAME="$YEAR-$MONTH-$DAY-$(echo $TITLE | tr '[:upper:]' '[:lower:]' | tr ' ' 
 
 touch _posts/$FILENAME
 
-cat >> _posts/$FILENAME << 'EOF'
+cat >> _posts/$FILENAME << EOF
 ---
-title: <UPDATE FULL TITLE>
+title: $TITLE
 categories:
   - Posts
 classes:
