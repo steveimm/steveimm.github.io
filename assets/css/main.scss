@@ -29,4 +29,21 @@ html {
   .archive__item-excerpt {
     display: block;
   }
+
+  .archive__item-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .archive__item-tech-item {
+    font-size: 0.7em;
+    margin: 0.1em 0.1em;
+    padding: 0.1em 0.4em;
+    background-color: whitesmoke;
+    border: 1px solid lightgray;
+    border-radius: 6px;
+  }
 }
