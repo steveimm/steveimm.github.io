@@ -19,4 +19,5 @@ I also have several [projects and some old assignments](/projects) which might b
 You can find me on:
 - [GitHub](https://github.com/SteveImmanuel)
 - [LinkedIn](https://www.linkedin.com/in/steve-imm)
+- [LeetCode](https://leetcode.com/SteveImmanuel/)
 - [Email](mailto:iam.steve.immanuel@gmail.com)
