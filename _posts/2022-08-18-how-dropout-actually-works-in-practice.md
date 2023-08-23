@@ -44,7 +44,7 @@ z &=& (1-p)^2(w_1x + w_2y) + p(1-p)(0 + w_2y) + (1-p)p(w_1x + 0) + p^2(0 + 0) \\
 So, the expected value of $$z$$ is simply multiplying the original result without dropout with $$1-p$$.
 
 ## Dropout in Practice
-Implementing dropout is very simple, we can simply create a mask with the same shape as the input and apply an element-wise multiplication. The mask is a binary matrix with probability of $$p$$ to be 1 and $$1-p$$ to be 0. The mask is different for each training step.
+Implementing dropout is very simple, we can simply create a mask with the same shape as the input and apply an element-wise multiplication. The mask is a binary matrix with probability of $$p$$ to be 0 and $$1-p$$ to be 1. The mask is different for each training step.
 
 ```python
 def train_step(x):
