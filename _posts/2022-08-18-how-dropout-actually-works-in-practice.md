@@ -6,6 +6,7 @@ classes:
   - wider-content
 tags:
   - Deep Learning
+excerpt: Behind the math of dropout and in depth implementation
 ---
 Original paper can be found [here](https://www.cs.toronto.edu/~hinton/absps/JMLRdropout.pdf).
 
