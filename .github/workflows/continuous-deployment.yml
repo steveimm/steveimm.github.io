@@ -6,11 +6,6 @@ on:
       - master
       - ci-cd
 
-# permissions:
-#   contents: read
-#   pages: write
-#   id-token: write
-
 jobs:
   build-pages:
     runs-on: ubuntu-latest
@@ -51,17 +46,26 @@ jobs:
       - name: Upload artifact to VM
         run: scp -o "StrictHostKeyChecking=no" -i key.pem artifact.tar ${{ secrets.VM_USERNAME }}@${{ secrets.VM_IP }}:~/.
 
-      # - name: Copy docker compose configuration
-      #   run: scp -o "StrictHostKeyChecking=no" -i key.pem docker-compose.yml ${{ secrets.VM_USERNAME }}@${{ secrets.VM_IP }}:~/trackme
+      - name: Create temporary directory
+        run: ssh -o "StrictHostKeyChecking=no" -i key.pem ${{ secrets.VM_USERNAME }}@${{ secrets.VM_IP }} "mkdir -p temp-untar"
 
-      # - name: Stop running containers
-      #   run: ssh -o "StrictHostKeyChecking=no" -i key.pem ${{ secrets.VM_USERNAME }}@${{ secrets.VM_IP }} "cd trackme && docker-compose -p trackme down"
+      - name: Extract artifact
+        run: ssh -o "StrictHostKeyChecking=no" -i key.pem ${{ secrets.VM_USERNAME }}@${{ secrets.VM_IP }} "tar -xvf artifact.tar --directory temp-untar"
 
-      # - name: Pull latest image
-      #   run: ssh -o "StrictHostKeyChecking=no" -i key.pem ${{ secrets.VM_USERNAME }}@${{ secrets.VM_IP }} "docker pull steveimm/trackme:latest"
+      - name: Delete old deployment
+        run: ssh -o "StrictHostKeyChecking=no" -i key.pem ${{ secrets.VM_USERNAME }}@${{ secrets.VM_IP }} "sudo rm -rf ${{ secrets.DEPLOY_DIRECTORY }}"
+      
+      - name: Move the new deployment
+        run: ssh -o "StrictHostKeyChecking=no" -i key.pem ${{ secrets.VM_USERNAME }}@${{ secrets.VM_IP }} "sudo mv temp-untar ${{ secrets.DEPLOY_DIRECTORY }}"
 
-      # - name: Start containers with latest update
-      #   run: ssh -o "StrictHostKeyChecking=no" -i key.pem ${{ secrets.VM_USERNAME }}@${{ secrets.VM_IP }} "cd trackme && docker-compose -p trackme up -d"
+      - name: Setup permissions
+        run: ssh -o "StrictHostKeyChecking=no" -i key.pem ${{ secrets.VM_USERNAME }}@${{ secrets.VM_IP }} "sudo chmod -R 755 ${{ secrets.DEPLOY_DIRECTORY }}"
 
-      # - name: Clean up SSH key
-      #   run: rm key.pem
+      - name: Setup ownerships
+        run: ssh -o "StrictHostKeyChecking=no" -i key.pem ${{ secrets.VM_USERNAME }}@${{ secrets.VM_IP }} "sudo chown -R www-data:www-data ${{ secrets.DEPLOY_DIRECTORY }}"
+
+      - name: Clean up artifact
+        run: ssh -o "StrictHostKeyChecking=no" -i key.pem ${{ secrets.VM_USERNAME }}@${{ secrets.VM_IP }} "sudo rm artifact.tar"
+
+      - name: Clean up SSH key
+        run: rm key.pem
