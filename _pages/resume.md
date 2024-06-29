@@ -1,5 +1,5 @@
 ---
-permalink: /resume
+permalink: /resume/
 layout: plain
 title: Resume
 author_profile: true
