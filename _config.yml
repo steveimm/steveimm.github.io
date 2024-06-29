@@ -58,7 +58,7 @@ author:
       url: "https://www.linkedin.com/in/steve-imm"
     - label: "Full Resume (PDF)"
       icon: "fa fa-fw fa-download"
-      url: "https://bit.ly/resume-steve-2023"
+      url: "/assets/pdf/resume_latest.pdf"
 
 footer:
   links:
