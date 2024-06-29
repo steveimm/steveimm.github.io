@@ -43,13 +43,13 @@ jobs:
       - name: Check build results
         run: ls -l
 
-      # - name: Create SSH key
-      #   run: |
-      #     echo "${{ secrets.SSH_KEY }}" > key.pem
-      #     chmod 400 key.pem
+      - name: Create SSH key
+        run: |
+          echo "${{ secrets.SSH_KEY }}" > key.pem
+          chmod 400 key.pem
 
-      # - name: Create app directory
-      #   run: ssh -o "StrictHostKeyChecking=no" -i key.pem ${{ secrets.VM_USERNAME }}@${{ secrets.VM_IP }} "mkdir -p trackme"
+      - name: Upload artifact to VM
+        run: scp -o "StrictHostKeyChecking=no" -i key.pem artifact.tar ${{ secrets.VM_USERNAME }}@${{ secrets.VM_IP }}:~/.
 
       # - name: Copy docker compose configuration
       #   run: scp -o "StrictHostKeyChecking=no" -i key.pem docker-compose.yml ${{ secrets.VM_USERNAME }}@${{ secrets.VM_IP }}:~/trackme
