@@ -8,7 +8,7 @@ title: Home
 # Hi 👋, welcome!
 I am Steve and this is my personal website. 
 
-I am a graduate student and a researcher. I am interested in deep learning, computer vision, and also 3D computer graphics.
+I am an artificial intelligence researcher. I am interested in deep learning, computer vision, and also 3D computer graphics.
 
 If you want to know more about me, check out my [resume](/resume).
 

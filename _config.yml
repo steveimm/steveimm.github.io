@@ -1,7 +1,8 @@
 title: SAI
+url: https://steveimm.id
 email:
 description: >- # this means to ignore newlines until "baseurl:"
-  Personal website of Steve Immanuel. It contains my portfolio, blogs, projects, etc.
+  Personal website of Steve Andreas Immanuel. It contains my portfolio, blogs, projects, etc.
 github_username: SteveImmanuel
 minimal_mistakes_skin: default
 search: false
@@ -58,7 +59,7 @@ author:
       url: "https://www.linkedin.com/in/steve-imm"
     - label: "Full Resume (PDF)"
       icon: "fa fa-fw fa-download"
-      url: "https://bit.ly/resume-steve-2023"
+      url: "/assets/pdf/resume_latest.pdf"
 
 footer:
   links:

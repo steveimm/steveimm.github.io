@@ -1,0 +1,68 @@
+name: Build and Deploy
+
+on:
+  push:
+    branches:
+      - master
+      - ci-cd
+
+jobs:
+  build-pages:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Build
+        uses: actions/jekyll-build-pages@v1 # see https://github.com/marketplace/actions/build-jekyll-for-github-pages
+        with:
+          verbose: true
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3 # see https://github.com/actions/upload-pages-artifact
+
+  deploy-to-vm:
+    runs-on: ubuntu-latest
+    needs: build-pages
+
+    steps:
+      - name: Download build results
+        uses: actions/download-artifact@v4
+        with:
+          name: github-pages
+
+      - name: Create SSH key
+        run: |
+          echo "${{ secrets.SSH_KEY }}" > key.pem
+          chmod 400 key.pem
+
+      - name: Upload artifact to VM
+        run: scp -o "StrictHostKeyChecking=no" -i key.pem artifact.tar ${{ secrets.VM_USERNAME }}@${{ secrets.VM_IP }}:~/.
+
+      - name: Create temporary directory
+        run: ssh -o "StrictHostKeyChecking=no" -i key.pem ${{ secrets.VM_USERNAME }}@${{ secrets.VM_IP }} "mkdir -p temp-untar"
+
+      - name: Extract artifact
+        run: ssh -o "StrictHostKeyChecking=no" -i key.pem ${{ secrets.VM_USERNAME }}@${{ secrets.VM_IP }} "tar -xvf artifact.tar --directory temp-untar"
+
+      - name: Delete old deployment
+        run: ssh -o "StrictHostKeyChecking=no" -i key.pem ${{ secrets.VM_USERNAME }}@${{ secrets.VM_IP }} "sudo rm -rf ${{ secrets.DEPLOY_DIRECTORY }}"
+      
+      - name: Move the new deployment
+        run: ssh -o "StrictHostKeyChecking=no" -i key.pem ${{ secrets.VM_USERNAME }}@${{ secrets.VM_IP }} "sudo mv temp-untar ${{ secrets.DEPLOY_DIRECTORY }}"
+
+      - name: Setup permissions
+        run: ssh -o "StrictHostKeyChecking=no" -i key.pem ${{ secrets.VM_USERNAME }}@${{ secrets.VM_IP }} "sudo chmod -R 755 ${{ secrets.DEPLOY_DIRECTORY }}"
+
+      - name: Setup ownerships
+        run: ssh -o "StrictHostKeyChecking=no" -i key.pem ${{ secrets.VM_USERNAME }}@${{ secrets.VM_IP }} "sudo chown -R www-data:www-data ${{ secrets.DEPLOY_DIRECTORY }}"
+
+      - name: Clean up artifact
+        run: ssh -o "StrictHostKeyChecking=no" -i key.pem ${{ secrets.VM_USERNAME }}@${{ secrets.VM_IP }} "sudo rm artifact.tar"
+
+      - name: Clean up SSH key
+        run: rm key.pem
