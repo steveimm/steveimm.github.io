@@ -47,7 +47,7 @@ Feb 2021 - Aug 2021
 Sejong University, Seoul, South Korea  
 March 2022 - Feb 2024
 
-- Current GPA: 4.50 / 4.50
+- GPA: 4.50 / 4.50
 - Main research topics: vision-language understanding, NeRF, computer vision
 - Designed and delivered materials for artificial intelligence and machine learning course for undergraduate students
 
