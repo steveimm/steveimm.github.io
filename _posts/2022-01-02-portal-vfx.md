@@ -14,7 +14,7 @@ Unity introduces their graph based tool for creating visual effect called VFX gr
 In this tutorial, we are going to replicate the portal effect from the movie Marvel Dr. Strange. Even though it looks really impressive, it is actually quite simple to make this kind of effect. This GIF below shows the final result.
 
 <div style="text-align:center">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/portal-vfx/vpMsvoT.gif"/>
+  <img src="/assets/images/portal-vfx/vpMsvoT.gif"/>
 </div>
 <br>
 
@@ -31,21 +31,21 @@ Before we start, this tutorial assumes you have the following requirements:
 Let's create a new Unity project. We are going to use Universal Render Pipeline (URP) for this project, so you can choose the URP template or use the 3D template and then upgrade it later on once you are inside Unity.
 
 <div style="text-align:center">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/portal-vfx/SEI50qB.png"/>
+  <img src="/assets/images/portal-vfx/SEI50qB.png"/>
 </div>
 <br>
 
 Next, we need to download the VFX Graph package from the Package Manager (```Window```->```Package Manager```). If you can't find it, make sure to choose the Unity Registry from the drop down menu. 
 
 <div style="text-align:center">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/portal-vfx/OEqk4mQ.png"/>
+  <img src="/assets/images/portal-vfx/OEqk4mQ.png"/>
 </div>
 
 Make sure these two packages are installed.
 
 <div style="text-align:center">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/portal-vfx/8SskMQK.png" width="350" />
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/portal-vfx/kWmUdg3.png" width="350" /> 
+  <img src="/assets/images/portal-vfx/8SskMQK.png" width="350" />
+  <img src="/assets/images/portal-vfx/kWmUdg3.png" width="350" /> 
 </div>
 <br>
 
@@ -54,14 +54,14 @@ Make sure these two packages are installed.
 Now, let's create the VFX graph. Right click in the project window and select `Create`->`Visual Effects`->`Visual Effect Graph` and name it `StaticPortalVFX`.
 
 <div style="text-align:center">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/portal-vfx/2tRz5WT.png"/>
+  <img src="/assets/images/portal-vfx/2tRz5WT.png"/>
 </div>
 <br>
 
 Drag the created VFX graph unto the scene. You should get the following result.
 
 <div style="text-align:center">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/portal-vfx/8vigktA.gif"/>
+  <img src="/assets/images/portal-vfx/8vigktA.gif"/>
 </div>
 <br>
 
@@ -74,14 +74,14 @@ Let's open the graph editor by double clicking `StaticPortalVFX` from the projec
 Next, press `space` and select `Simple Swarm Particle System`.
 
 <div style="text-align:center">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/portal-vfx/tRJ67ry.png"/>
+  <img src="/assets/images/portal-vfx/tRJ67ry.png"/>
 </div>
 <br>
 
 Right away, you should see particles being spawn from a sphere with random motion like the following.
 
 <div style="text-align:center">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/portal-vfx/Gs7fQ21.gif"/>
+  <img src="/assets/images/portal-vfx/Gs7fQ21.gif"/>
 </div>
 <br>
 
@@ -89,28 +89,28 @@ Create new `int` property and name it `SpawnRate`. Connect this property to
 the `Constant Spawn Rate` node. As the name suggests, this property controls the spawn rate of the system.
 
 <div style="text-align:center">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/portal-vfx/LlrePRt.png"/>
+  <img src="/assets/images/portal-vfx/LlrePRt.png"/>
 </div>
 <br>
 
 Change the simulation space to `World Space` by pressing the `LOCAL` symbol in the block. This will ensure that if you move around the VFX system, the particles will get left behind and not just follow around the center of the system.
 
 <div style="text-align:center">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/portal-vfx/2hxYU86.png"/>
+  <img src="/assets/images/portal-vfx/2hxYU86.png"/>
 </div>
 <br>
 
 Let's move on to the `Initialize Particle` block. This block is responsible with how each particles is spawned. We want to spawn the particles in a circle to get the portal effect. To do that, we can use `Set Position (Shape: Torus)` node.
 
 <div style="text-align:center">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/portal-vfx/wMcmWEh.png"/>
+  <img src="/assets/images/portal-vfx/wMcmWEh.png"/>
 </div>
 <br>
 
 Create 2 new properties, name it `MajorRadius` and `MinorRadius` and connect it to the input accordingly. The `MajorRadius` will control how big the portal is, while the `MinorRadius` will control the width of the arc of the portal.
 
 <div style="text-align:center">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/portal-vfx/ImllSAc.png"/>
+  <img src="/assets/images/portal-vfx/ImllSAc.png"/>
 </div>
 <br>
 
@@ -119,7 +119,7 @@ Next, we want each particle to move perpendicular to the center of the portal. T
 Save the graph, go back to the `Scene` and you should get result similar to the GIF below.
 
 <div style="text-align:center">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/portal-vfx/QeWn6fG.gif"/>
+  <img src="/assets/images/portal-vfx/QeWn6fG.gif"/>
 </div>
 <br>
 
@@ -128,7 +128,7 @@ Play around with the hyperparameters in the graph (`Speed`, `Lifetime`, etc) to 
 The `Update Particle` block controls how the behaviour of each particle for each timestep. To make the movement more natural we can use the `Turbulence` node to add a little random noise for the movement of each particle. The image below shows the parameter value that I ended up using.
 
 <div style="text-align:center">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/portal-vfx/oPVHrd2.png"/>
+  <img src="/assets/images/portal-vfx/oPVHrd2.png"/>
 </div>
 <br>
 
@@ -142,21 +142,21 @@ To add more variance, you can randomize the scale for each particle. In this cas
 You might notice that in the movie, Dr. Strange's portal has longer particles, kinda like a rod. We can achieve this effect by modifying the scale in Y-axis. To make it look more natural, we can scale the Y-axis little by little as the time goes by using `Set Scale.Y over Life` node. This will give a "growing" effect for each particle. Control the scale using curve to represent the scale value based on the particle's lifetime.
 
 <div style="text-align:center">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/portal-vfx/FMmdusZ.png"/>
+  <img src="/assets/images/portal-vfx/FMmdusZ.png"/>
 </div>
 <br>
 
 You can also control the color of the particles using `Set Color over Life` node. I used a gradient of orange color to replicate the portal color from the movie. In this context, the leftmost part of the color represents the color when the particle is spawned while the rightmost represents the color when the particle dies. Notice that the alpha value for the leftmost and rightmost part is 0. This will give a fade in and fade out effect so that the particle doesn't just pop in when it is spawned and disappear suddenly when it dies.
 
 <div style="text-align:center">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/portal-vfx/REjEgah.png"/>
+  <img src="/assets/images/portal-vfx/REjEgah.png"/>
 </div>
 <br>
 
 If you follow everything correctly, you should get the following result.
 
 <div style="text-align:center">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/portal-vfx/NxOmPBZ.gif"/>
+  <img src="/assets/images/portal-vfx/NxOmPBZ.gif"/>
 </div>
 <br>
 
@@ -166,14 +166,14 @@ And that's basically it. Congratulations, you have just successfully create the 
 In this section, I am going to explain how to **spawn** the portal slowly and configure scene **lighting** to make it more immersive. First, we need to duplicate the VFX graph that we just created and name it `SpawningPortalVFX`. Open it and in the `Set Position (Shape: Torus)` node, change the `Spawn Mode` to `Custom`. Create new float property to control the `Arc Sequencer` input and name it `ArcSequencer`.
 
 <div style="text-align:center">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/portal-vfx/7r1GCu3.png"/>
+  <img src="/assets/images/portal-vfx/7r1GCu3.png"/>
 </div>
 <br>
 
 Now, you can control the spawn point of the particles in the circle arc.
 
 <div style="text-align:center">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/portal-vfx/OMpL1wC.gif"/>
+  <img src="/assets/images/portal-vfx/OMpL1wC.gif"/>
 </div>
 <br>
 
@@ -183,15 +183,15 @@ Now, you can control the spawn point of the particles in the circle arc.
 Next, select the VFX graph from the project window, then in the inspector, remove the `Initial Event Name`. This will ensure that the VFX system doesn't immediately spawn because we want to control it from C# script.
 
 <div style="text-align:center">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/portal-vfx/PH1YF3E.png"/>
+  <img src="/assets/images/portal-vfx/PH1YF3E.png"/>
 </div>
 <br>
 
 To add the glowing effect, we need to use post processing. Create a global volume from the hierarchy. Then, create a new profile and add override of `Bloom`. 
 
 <div style="text-align:center">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/portal-vfx/F3offe4.png" width="300"/>
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/portal-vfx/ZQsUnlX.png" width="300"/>
+  <img src="/assets/images/portal-vfx/F3offe4.png" width="300"/>
+  <img src="/assets/images/portal-vfx/ZQsUnlX.png" width="300"/>
 </div>
 <br>
 
@@ -200,7 +200,7 @@ The `Intensity` controls how much of a glow the object will emit while `Threshol
 I also add `Vignette` override to give a more filmic-look to the result.
 
 <div style="text-align:center">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/portal-vfx/2NkL6Ct.gif"/>
+  <img src="/assets/images/portal-vfx/2NkL6Ct.gif"/>
 </div>
 <br>
 
@@ -210,8 +210,8 @@ I also add `Vignette` override to give a more filmic-look to the result.
 Last, let's configure the lighting. Remove the ambient lighting in the scene because we want our VFX system to be the only source of light. Open the lighting window from `Window`->`Rendering`->`Lighting` and select the `Environment` tab. Choose `None` for the `SkyBox Material` and complete black for the `Ambient Color`. You should see that the scene now looks very dark.
 
 <div style="text-align:center">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/portal-vfx/IsEnx3W.png" width="300"/>
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/portal-vfx/Y9cgf4n.png"/>
+  <img src="/assets/images/portal-vfx/IsEnx3W.png" width="300"/>
+  <img src="/assets/images/portal-vfx/Y9cgf4n.png"/>
 </div>
 <br>
 
@@ -220,14 +220,14 @@ Even though we have created the glow effect from the particles, it **does not** 
 The workaround is we "fake" the lighting using other lighting system that supports realtime. Right click in the `Hierarchy` and select `Light`->`Point Light`. Set the light intensity to 0 as we want to control it later from the C# script. Configure the objects hierarchy as shown in the image below.
 
 <div style="text-align:center">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/portal-vfx/3HU3kuq.png"/>
+  <img src="/assets/images/portal-vfx/3HU3kuq.png"/>
 </div>
 <br>
 
 Create an enclosed room using 6 cube blocks and place the `Portal` inside those blocks. If you move your view inside the room you will see a pitch black color. To help you see inside that room, you can disable the scene lighting (this setting only affects the `Scene` window, not the actual game) by pressing the light icon as shown in the GIF below.
 
 <div style="text-align:center">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/portal-vfx/kGv80Cn.gif"/>
+  <img src="/assets/images/portal-vfx/kGv80Cn.gif"/>
 </div>
 <br>
 
@@ -351,7 +351,7 @@ public class PortalSpawner : MonoBehaviour
 Place the script in the `Portal` gameobject. Change the parameters however you like. This is the parameters value that I used to get the end result.
 
 <div style="text-align:center">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/portal-vfx/E2pKwMm.png"/>
+  <img src="/assets/images/portal-vfx/E2pKwMm.png"/>
 </div>
 <br>
 
@@ -360,7 +360,7 @@ The script will make the `SpawningPortalVFX` spawns first, slowly from a small r
 Press play, then `Space` to spawn/despawn the portal. You should get result similar to the GIF below.
 
 <div style="text-align:center">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/portal-vfx/vpMsvoT.gif"/>
+  <img src="/assets/images/portal-vfx/vpMsvoT.gif"/>
 </div>
 <br>
 
