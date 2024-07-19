@@ -35,10 +35,11 @@ Feb 2021 - Aug 2021
 
 # Publications
 - **Steve Andreas Immanuel**, Hagai Raja Sinullinga, ["Learnable Prompt for Few-Shot Semantic Segmentation in Remote Sensing Domain,"](https://openaccess.thecvf.com/content/CVPR2024W/L3D-IVU/papers/Immanuel_Learnable_Prompt_for_Few-Shot_Semantic_Segmentation_in_Remote_Sensing_Domain_CVPRW_2024_paper.pdf) [*Computer Vision and Pattern Recognition Workshops*](https://cvpr.thecvf.com/), June 2024.
-- **Steve Andreas Immanuel** and Cheol Jeong, ["Lightweight Recurrent Cross-modal Encoder for Video Question Answering,"](https://authors.elsevier.com/c/1hS7k3OAb999Cn) [*Knowledge-Based System*](https://www.sciencedirect.com/journal/knowledge-based-systems), July 2023.
-- Vania Velda, **Steve Andreas Immanuel**, Willy Fitra Hendria, and Cheol Jeong, ["Improving distinctiveness in video captioning with text-video similarity,"](https://authors.elsevier.com/c/1hKNExnVKBE-2) [*Image and Vision Computing*](https://www.sciencedirect.com/journal/image-and-vision-computing), June 2023.
+- **Steve Andreas Immanuel** and Cheol Jeong, ["Lightweight Recurrent Cross-modal Encoder for Video Question Answering,"](https://www.sciencedirect.com/science/article/abs/pii/S0950705123005233) [*Knowledge-Based System*](https://www.sciencedirect.com/journal/knowledge-based-systems), July 2023.
+- Vania Velda, **Steve Andreas Immanuel**, Willy Fitra Hendria, and Cheol Jeong, ["Improving distinctiveness in video captioning with text-video similarity,"](https://www.sciencedirect.com/science/article/abs/pii/S0262885623001026) [*Image and Vision Computing*](https://www.sciencedirect.com/journal/image-and-vision-computing), June 2023.
 
 # Awards
+- 1st Winner of ["AI4EO Map Your City Challenge"](https://ai4eo.eu/portfolio/mapyourcity-challenge/) (2024)
 - 4th Winner of ["OpenEarthMap Land Cover Mapping Few-Shot Challenge"](https://cliffbb.github.io/OEM-Fewshot-Challenge/) (2024)
 
 # Education
