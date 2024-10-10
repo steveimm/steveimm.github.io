@@ -16,25 +16,44 @@ I am an AI researcher. My main topics of interest are computer vision, neural co
 # Publications
 
 <style type="text/css">
-.tab-pub td{border:none;font-size:1.2em;overflow:hidden;padding:10px 5px;word-break:normal;text-align:left;vertical-align:center;}
-.tab-pub img{min-width: 70px;width:25rem;margin: 0px 0px 20px 0px;}
-.tab-pub td:nth-child(2) {
-    padding-left: 20px
-}
+.tab-pub td{border:none}
+.tab-pub tr{border-bottom:1px solid #d6d6d6;font-size:1.2em;overflow:hidden;word-break:normal;text-align:left;}
+.tab-pub img{min-width: 70px;width:15rem;margin: 0px 0px 20px 0px;}
+.tab-pub tr:last-child {border-bottom: none;}
 </style>
 <table class="tab-pub">
   <tbody>
     <tr>
+      <td><img src='/assets/images/pubs/implisat.png'></td>
+      <td>
+        Neural Compression for Multispectral Satellite Images<br/>
+        Woojin Cho*, <b>Steve Andreas Immanuel*</b>, Junhyuk Heo, and Darongsae Kwon<br/>
+        <a href="https://neuralcompression.github.io/workshop24">NeurIPS Neural Compression Workshop</a>, 2024
+      </td>
+    </tr>
+    <tr>
       <td><img src='/assets/images/pubs/OEM.jpg'></td>
-      <td><b>Steve Andreas Immanuel</b>, Hagai Raja Sinullinga, <a href="https://openaccess.thecvf.com/content/CVPR2024W/L3D-IVU/papers/Immanuel_Learnable_Prompt_for_Few-Shot_Semantic_Segmentation_in_Remote_Sensing_Domain_CVPRW_2024_paper.pdf">"Learnable Prompt for Few-Shot Semantic Segmentation in Remote Sensing Domain"</a>, <a href="https://cvpr.thecvf.com">Computer Vision and Pattern Recognition Workshops</a>, June 2024.</td>
+      <td>
+        <a href="https://openaccess.thecvf.com/content/CVPR2024W/L3D-IVU/papers/Immanuel_Learnable_Prompt_for_Few-Shot_Semantic_Segmentation_in_Remote_Sensing_Domain_CVPRW_2024_paper.pdf">Learnable Prompt for Few-Shot Semantic Segmentation in Remote Sensing Domain</a><br/>
+        <b>Steve Andreas Immanuel</b>, Hagai Raja Sinullinga<br/>
+        <a href="https://sites.google.com/view/l3divu2024/overview">CVPR Learning with Limited Data Workshop</a>, 2024
+      </td>
     </tr>
     <tr>
       <td><img src='/assets/images/pubs/LRCE.png'></td>
-      <td><b>Steve Andreas Immanuel</b> and Cheol Jeong, <a href="https://www.sciencedirect.com/science/article/abs/pii/S0950705123005233">"Lightweight Recurrent Cross-modal Encoder for Video Question Answering"</a>, <a href="https://www.sciencedirect.com/journal/knowledge-based-systems">Knowledge-Based System</a>, July 2023.</td>
+      <td>
+        <a href="https://www.sciencedirect.com/science/article/abs/pii/S0950705123005233">Lightweight Recurrent Cross-modal Encoder for Video Question Answering</a><br/>
+        <b>Steve Andreas Immanuel</b> and Cheol Jeong<br/>
+        <a href="https://www.sciencedirect.com/journal/knowledge-based-systems">Knowledge-Based System</a>, 2023
+      </td>
     </tr>
     <tr>
       <td><img src='/assets/images/pubs/VCT2V.png'></td>
-      <td>Vania Velda, <b>Steve Andreas Immanuel</b> Willy Fitra Hendria, and Cheol Jeong, <a href="https://www.sciencedirect.com/science/article/abs/pii/S0262885623001026">"Improving distinctiveness in video captioning with text-video similarity"</a>, <a href="https://www.sciencedirect.com/journal/image-and-vision-computing">Image and Vision Computing</a>, June 2023.</td>
+      <td>
+        <a href="https://www.sciencedirect.com/science/article/abs/pii/S0262885623001026">Improving distinctiveness in video captioning with text-video similarity</a><br/>
+        Vania Velda, <b>Steve Andreas Immanuel</b> Willy Fitra Hendria, and Cheol Jeong<br/>
+        <a href="https://www.sciencedirect.com/journal/image-and-vision-computing">Image and Vision Computing</a>, 2023
+      </td>
     </tr>
   </tbody>
 </table>
