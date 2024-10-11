@@ -26,7 +26,7 @@ I am an AI researcher. My main topics of interest are computer vision, neural co
     <tr>
       <td><img src='/assets/images/pubs/implisat.png'></td>
       <td>
-        Neural Compression for Multispectral Satellite Images<br/>
+        <a href="https://steveimmanuel.github.io/implisat/">Neural Compression for Multispectral Satellite Images</a><br/>
         Woojin Cho*, <b>Steve Andreas Immanuel*</b>, Junhyuk Heo, and Darongsae Kwon<br/>
         <a href="https://neuralcompression.github.io/workshop24">NeurIPS Neural Compression Workshop</a>, 2024
       </td>
