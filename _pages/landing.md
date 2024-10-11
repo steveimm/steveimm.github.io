@@ -35,7 +35,7 @@ I am an AI researcher. My main topics of interest are computer vision, neural co
       <td><img src='/assets/images/pubs/OEM.jpg'></td>
       <td>
         <a href="https://openaccess.thecvf.com/content/CVPR2024W/L3D-IVU/papers/Immanuel_Learnable_Prompt_for_Few-Shot_Semantic_Segmentation_in_Remote_Sensing_Domain_CVPRW_2024_paper.pdf">Learnable Prompt for Few-Shot Semantic Segmentation in Remote Sensing Domain</a><br/>
-        <b>Steve Andreas Immanuel</b>, Hagai Raja Sinullinga<br/>
+        <b>Steve Andreas Immanuel</b> and Hagai Raja Sinullinga<br/>
         <a href="https://sites.google.com/view/l3divu2024/overview">CVPR Learning with Limited Data Workshop</a>, 2024
       </td>
     </tr>
@@ -51,7 +51,7 @@ I am an AI researcher. My main topics of interest are computer vision, neural co
       <td><img src='/assets/images/pubs/VCT2V.png'></td>
       <td>
         <a href="https://www.sciencedirect.com/science/article/abs/pii/S0262885623001026">Improving distinctiveness in video captioning with text-video similarity</a><br/>
-        Vania Velda, <b>Steve Andreas Immanuel</b> Willy Fitra Hendria, and Cheol Jeong<br/>
+        Vania Velda, <b>Steve Andreas Immanuel</b>, Willy Fitra Hendria, and Cheol Jeong<br/>
         <a href="https://www.sciencedirect.com/journal/image-and-vision-computing">Image and Vision Computing</a>, 2023
       </td>
     </tr>

@@ -48,7 +48,7 @@ author:
     - label: "Phone"
       icon: "fa fa-fw fa-phone fa-flip-horizontal"
       url: "tel:+821099851378"
-    - label: "Google Scholar"
+    - label: "Scholar"
       icon: "fab fa-fw fa-google-scholar"
       url: "https://scholar.google.com/citations?user=7NpZLiYAAAAJ&hl=en"
     - label: "GitHub"
