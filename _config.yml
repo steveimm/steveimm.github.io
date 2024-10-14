@@ -39,12 +39,12 @@ plugins:
 
 author:
   name   : "Steve Andreas Immanuel"
-  # avatar : "/assets/images/bio-photo.jpg"
+  # avatar : "/assets/images/profile/bio.jpg"
   bio    : ""
   links:
     - label: "Email"
       icon: "fa fa-fw fa-envelope"
-      url: "mailto:iam.steve.immanuel@gmail.com"
+      url: "mailto:hi@steveimm.id"
     - label: "Phone"
       icon: "fa fa-fw fa-phone fa-flip-horizontal"
       url: "tel:+821099851378"
