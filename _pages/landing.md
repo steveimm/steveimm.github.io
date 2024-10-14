@@ -9,6 +9,8 @@ title: Home
 
 I am an AI researcher. My main topics of interest are computer vision, neural compression, implicit neural representation, and 3D computer graphics.
 
+🚀 I'm always excited to collaborate on innovative projects! Feel free to reach out to me at my email.
+
 # Awards
 - 1st Winner of ["AI4EO Map Your City Challenge"](https://ai4eo.eu/portfolio/mapyourcity-challenge/) (2024)
 - 4th Winner of ["OpenEarthMap Land Cover Mapping Few-Shot Challenge"](https://cliffbb.github.io/OEM-Fewshot-Challenge/) (2024)
