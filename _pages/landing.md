@@ -22,7 +22,9 @@ I am an AI researcher. My main topics of interest are computer vision, implicit 
 .tab-pub tr{border-bottom:1px solid #d6d6d6;font-size:1.2em;overflow:hidden;word-break:normal;text-align:left;}
 .tab-pub img{min-width: 70px;width:15rem;margin: 0px 0px 20px 0px;}
 .tab-pub tr:last-child {border-bottom: none;}
+.small-text{font-size:0.8em}
 </style>
+
 <table class="tab-pub">
   <tbody>
     <tr>
@@ -30,6 +32,7 @@ I am an AI researcher. My main topics of interest are computer vision, implicit 
       <td>
         <a href="https://steveimmanuel.github.io/implisat/">Neural Compression for Multispectral Satellite Images</a><br/>
         Woojin Cho*, <b>Steve Andreas Immanuel*</b>, Junhyuk Heo, and Darongsae Kwon<br/>
+        <div class='small-text'>*Equal contribution</div>
         <a href="https://neuralcompression.github.io/workshop24">NeurIPS Neural Compression Workshop</a>, 2024
       </td>
     </tr>
