@@ -309,7 +309,7 @@ Then, the `forward` function can look like this:
 
 By combining the observation and the known transformation, the result is much more accurate. This is the **main strength** of NODE.
 
-#### Failure Case of Wrong Observation
+#### Failure Case of Wrong Transformation
 If we use a completely wrong transformation, then the result will be completely off. Let's say we model the ODE as:
 
 $$
