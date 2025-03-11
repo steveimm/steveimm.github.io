@@ -145,7 +145,7 @@ y &= e^{-\int p(t)dt}(\int e^{\int p(t)dt}q(t)dt + C)
 \end{align}
 $$
 
-Note that at any time of the equation, if a constant is operated with another constant, it can be combined into a single constant.
+Note that at any time in the equation, if a constant is operated with another constant, it can be combined into a single constant.
 
 # Neural Ordinary Differential Equation (NODE)
 First introduced by [Chen et al. (2018)](https://arxiv.org/abs/1806.07366). The idea steams from [Residual Network](https://arxiv.org/pdf/1512.03385) (ResNet). The main idea introduced in ResNet is the **skip connection** which allows the network to learn residual information by simply adding the input and output of the residual block together.
