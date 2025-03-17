@@ -32,7 +32,7 @@ I am an AI researcher. My main topics of interest are computer vision, implicit 
       <td>
         <a href="https://steveimmanuel.github.io/rs-paint/">Tackling Few-Shot Segmentation in Remote Sensing via Inpainting Diffusion Model</a><br/>
         <b>Steve Andreas Immanuel</b>, Woojin Cho, Junhyuk Heo, and Darongsae Kwon<br/>
-        <a href="https://ml-for-rs.github.io/iclr2025/">ICLR Machine Learning for Remote Sensing Workshop</a> <b>(Oral)</b>, 2025
+        <a href="https://ml-for-rs.github.io/iclr2025/">ICLR Machine Learning for Remote Sensing Workshop</a> <b style="color: #cf2e1f">(Oral)</b>, 2025
       </td>
     </tr>
     <tr>
