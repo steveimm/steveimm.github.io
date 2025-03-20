@@ -28,6 +28,15 @@ I am an AI researcher. My main topics of interest are computer vision, implicit 
 <table class="tab-pub">
   <tbody>
     <tr>
+      <td><img src='/assets/images/pubs/igarss.png'></td>
+      <td>
+        <a href="https://steveimmanuel.github.io/implisat/">Fourier-Modulated Implicit Neural Representation for Multispectral Satellite Image Compression</a><br/>
+        Woojin Cho*, <b>Steve Andreas Immanuel*</b>, Junhyuk Heo, and Darongsae Kwon<br/>
+        <div class='small-text'>*Equal contribution</div>
+        <a href="https://www.2025.ieeeigarss.org/">IEEE International Geoscience and Remote Sensing Symposium (IGARSS)</a>, 2025
+      </td>
+    </tr>
+    <tr>
       <td><img src='/assets/images/pubs/paintrs.jpg'></td>
       <td>
         <a href="https://steveimmanuel.github.io/rs-paint/">Tackling Few-Shot Segmentation in Remote Sensing via Inpainting Diffusion Model</a><br/>
