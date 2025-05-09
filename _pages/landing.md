@@ -79,3 +79,17 @@ I am an AI researcher. My main topics of interest are semantic segmentation, few
     </tr>
   </tbody>
 </table>
+
+# Misc
+## Peer Review
+- IEEE Transactions on Geoscience and Remote Sensing
+- Knowledge-Based Systems
+- Image and Vision Computing
+
+## [ESA-NASA International Workshop on AI Foundation Model for EO](https://nikal.eventsair.com/cmspreview/nasa-esa-international-workshop-on-geospatial-ai-foundation-model-for-earth-observation-and-earth-sciences/)
+1-page abstract paper (co-author):
+- [Multi-Modal Foundation Model for Electro-Optical and SAR Images using Neural Operator-Based CLIP](/assets/images/esa-nasa/1.jpeg)
+- [A Unified Framework for Multi-Resolution and Multi-Spectral Satellite Imagery in Foundation Model Training](/assets/images/esa-nasa/3.jpeg)
+- [Leveraging Few-Shot Learning and Data Augmentation for Scrap Metal Segmentation in Satellite Imagery](/assets/images/esa-nasa/4.jpeg)
+- [Neural Representation-Based Foundation Model for Satellite Images Pansharpening](/assets/images/esa-nasa/5.jpeg)
+- [Continual Pretraining for Satellite Imagery: A Foundation Model Framework with LLM Agents](/assets/images/esa-nasa/2.jpeg)
