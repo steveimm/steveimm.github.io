@@ -39,7 +39,7 @@ I am an AI researcher. My main topics of interest are semantic segmentation, few
     <tr>
       <td><img src='/assets/images/pubs/paintrs.jpg'></td>
       <td>
-        <a href="https://steveimmanuel.github.io/rs-paint/">Tackling Few-Shot Segmentation in Remote Sensing via Inpainting Diffusion Model</a><br/>
+        <a href="https://steveimm.id/rs-paint/">Tackling Few-Shot Segmentation in Remote Sensing via Inpainting Diffusion Model</a><br/>
         <b>Steve Andreas Immanuel</b>, Woojin Cho, Junhyuk Heo, and Darongsae Kwon<br/>
         <a href="https://ml-for-rs.github.io/iclr2025/">ICLR Machine Learning for Remote Sensing Workshop</a> <b style="color: #cf2e1f">(Best Paper Award)</b>, 2025
       </td>
@@ -47,7 +47,7 @@ I am an AI researcher. My main topics of interest are semantic segmentation, few
     <tr>
       <td><img src='/assets/images/pubs/implisat.png'></td>
       <td>
-        <a href="https://steveimmanuel.github.io/implisat/">Neural Compression for Multispectral Satellite Images</a><br/>
+        <a href="https://steveimm.id/implisat/">Neural Compression for Multispectral Satellite Images</a><br/>
         Woojin Cho*, <b>Steve Andreas Immanuel*</b>, Junhyuk Heo, and Darongsae Kwon<br/>
         <div class='small-text'>*Equal contribution</div>
         <a href="https://neuralcompression.github.io/workshop24">NeurIPS Neural Compression Workshop</a>, 2024
