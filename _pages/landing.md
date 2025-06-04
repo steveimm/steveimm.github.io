@@ -30,7 +30,7 @@ I am an AI researcher. My main topics of interest are semantic segmentation, few
     <tr>
       <td><img src='/assets/images/pubs/igarss.png'></td>
       <td>
-        <a href="https://steveimmanuel.github.io/implisat/">Fourier-Modulated Implicit Neural Representation for Multispectral Satellite Image Compression</a><br/>
+        <a href="https://arxiv.org/abs/2506.01234">Fourier-Modulated Implicit Neural Representation for Multispectral Satellite Image Compression</a><br/>
         Woojin Cho*, <b>Steve Andreas Immanuel*</b>, Junhyuk Heo, and Darongsae Kwon<br/>
         <div class='small-text'>*Equal contribution</div>
         <a href="https://www.2025.ieeeigarss.org/">IEEE International Geoscience and Remote Sensing Symposium</a> <b style="color: #cf2e1f">(Oral)</b>, 2025<br/>
