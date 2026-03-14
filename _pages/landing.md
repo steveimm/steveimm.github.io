@@ -85,6 +85,8 @@ I am an AI researcher. My main topics of interest are semantic segmentation, few
 - IEEE Transactions on Geoscience and Remote Sensing
 - Knowledge-Based Systems
 - Image and Vision Computing
+- ICLR 2026 - [Machine Learning for Remote Sensing Workshop](https://ml-for-rs.github.io/iclr2026/)
+- CVPR 2026 - [Efficient and On-Device Generation Workshop](https://cvpr26-edge.github.io/)
 
 ## [ESA-NASA International Workshop on AI Foundation Model for EO](https://nikal.eventsair.com/cmspreview/nasa-esa-international-workshop-on-geospatial-ai-foundation-model-for-earth-observation-and-earth-sciences/)
 1-page abstract paper (co-author):
