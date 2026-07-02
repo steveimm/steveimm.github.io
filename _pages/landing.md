@@ -7,7 +7,12 @@ title: Home
 ---
 # Hi 👋, welcome!
 
-I am an AI researcher. My main topics of interest are semantic segmentation, few-shot learning, implicit neural representation, neural compression, and 3D computer graphics.
+I am an AI researcher and engineer. 
+
+My current main interest is in building agentic LLM systems, including RAG, MCP, harness engineering, and the LLM training itself.
+
+I also have expertise in the following domains: semantic segmentation, few-shot learning, implicit neural representation, neural compression, 3D computer graphics.
+
 
 🚀 I'm always excited to collaborate on innovative projects! Feel free to reach out to me at my email.
 
