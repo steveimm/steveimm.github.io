@@ -11,7 +11,7 @@ Have you seen liquids inside some small containers like bottles, vases, or glass
 
 In this tutorial, we are going to attempt to create liquid shader however in a simplified manner. This GIF below shows the final result, but I'm going to give you some tips on how to improve it in the last part of the tutorial if you are interested.
 
-This is a considerably long tutorial so you don't have to finish it in one go. Make sure you understand the concepts, take a break, and come back later if necessary. If you encounter a problem when following the tutorial, you can check out the full source code from [SteveImmanuel/unity-liquid-wobble](https://github.com/SteveImmanuel/unity-liquid-wobble).
+This is a considerably long tutorial so you don't have to finish it in one go. Make sure you understand the concepts, take a break, and come back later if necessary. If you encounter a problem when following the tutorial, you can check out the full source code from [SteveImmanuel/unity-liquid-wobble](https://github.com/steveimm/unity-liquid-wobble).
 
 <div style="text-align:center">
   <img src="/assets/images/liquid-wobble/T86C03i.gif"/>

@@ -50,7 +50,7 @@ author:
       url: "https://scholar.google.com/citations?user=7NpZLiYAAAAJ&hl=en"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/SteveImmanuel"
+      url: "https://github.com/steveimm"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/steve-imm"
@@ -62,7 +62,7 @@ footer:
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/SteveImmanuel"
+      url: "https://github.com/steveimm"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/steve-imm"

@@ -20,7 +20,7 @@ In this tutorial, we are going to replicate the portal effect from the movie Mar
 
 Note that this tutorial only covers from the aspect of visual effect and not the implementation of the portal **mechanics** because that would be a whole other tutorial itself (which I might do in the future).
 
-The full source code for this project is available at [SteveImmanuel/unity-portal-vfx](https://github.com/SteveImmanuel/unity-portal-vfx.git). If you are really new to VFX graph, I highly suggest you to read [this other tutorial](https://hackmd.io/aBquDI0sTCOIP-CTxp6Rbg?view) first before going into this tutorial to get basic understanding of how it works.
+The full source code for this project is available at [SteveImmanuel/unity-portal-vfx](https://github.com/steveimm/unity-portal-vfx.git). If you are really new to VFX graph, I highly suggest you to read [this other tutorial](https://hackmd.io/aBquDI0sTCOIP-CTxp6Rbg?view) first before going into this tutorial to get basic understanding of how it works.
 
 Before we start, this tutorial assumes you have the following requirements:
 - Basic understanding of Unity

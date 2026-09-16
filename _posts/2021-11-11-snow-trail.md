@@ -25,8 +25,8 @@ In this tutorial, we are going to attempt to replicate snow trail effect using s
 <br>
 
 
-For this tutorial, we are going to need a plane mesh that has a lot of vertices. The default plane object from Unity is not going to suffice for this purpose, so I created a new one in Blender and subdivided until it has enough vertices. You can do that yourself or download that from [here](https://github.com/SteveImmanuel/unity-snow-shader/blob/master/Assets/Models/plane.fbx).
- The full source code for this project is available at [SteveImmanuel/unity-snow-shader](https://github.com/SteveImmanuel/unity-snow-shader.git).
+For this tutorial, we are going to need a plane mesh that has a lot of vertices. The default plane object from Unity is not going to suffice for this purpose, so I created a new one in Blender and subdivided until it has enough vertices. You can do that yourself or download that from [here](https://github.com/steveimm/unity-snow-shader/blob/master/Assets/Models/plane.fbx).
+ The full source code for this project is available at [SteveImmanuel/unity-snow-shader](https://github.com/steveimm/unity-snow-shader.git).
 
 Before we start, this tutorial assumes you have the following requirements:
 - Basic understanding of Unity

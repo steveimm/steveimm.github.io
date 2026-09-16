@@ -21,7 +21,7 @@ In this tutorial, we are going to attempt to replicate wiggling fish animation u
 </div>
 <br>
 
-The model I used for this tutorial can be downloaded [here](https://sketchfab.com/3d-models/coral-fish-ea8d002da75a4dd09658b962722279c5). The full source code for this project is available at [SteveImmanuel/unity-fish-wiggle](https://github.com/SteveImmanuel/unity-fish-wiggle).
+The model I used for this tutorial can be downloaded [here](https://sketchfab.com/3d-models/coral-fish-ea8d002da75a4dd09658b962722279c5). The full source code for this project is available at [SteveImmanuel/unity-fish-wiggle](https://github.com/steveimm/unity-fish-wiggle).
 
 Before we start, this tutorial assumes you have the following requirements:
 - Basic understanding of Unity

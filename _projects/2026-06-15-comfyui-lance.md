@@ -1,6 +1,6 @@
 ---
 title: ComfyUI Lance
 excerpt: ComfyUI port for Lance 3B model with dynamic VRAM support
-ext_link: https://github.com/SteveImmanuel/comfyui-lance-aio
+ext_link: https://github.com/steveimm/comfyui-lance-aio
 tech_stacks: [ComfyUI, Torch, Python]
 ---
