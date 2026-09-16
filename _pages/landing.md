@@ -33,6 +33,23 @@ I also have expertise in the following domains: semantic segmentation, few-shot 
 <table class="tab-pub">
   <tbody>
     <tr>
+      <td><img src='/assets/images/pubs/syndata.png'></td>
+      <td>
+        <a href="https://openreview.net/forum?id=dIO3JLoy19">
+Sequential Dataset for Satellite Pose Estimation and a Frequency-Space Neural Operator for HIL-Free Generalization Benchmarking</a><br/>
+        Woojin Cho, Junghwan Park, <b>Steve Andreas Immanuel</b>, Junmin Park, Seokhyun Chin, Jiayun Wang<br/>
+        <a href="https://syndata4cv.github.io/">CVPR Synthetic Data for Computer Vision Workshop</a> <b style="color: #cf2e1f">(Runner-Up Best Paper)</b>, 2026<br/>
+      </td>
+    </tr>
+    <tr>
+      <td><img src='/assets/images/pubs/igarss-2.png'></td>
+      <td>
+        <a href="https://arxiv.org/abs/2608.06942">ELMZip: Onboard Satellite Image Compression via Extreme Learning Machines for Efficient Downlink</a><br/>
+        Woojin Cho, Junghwan Park, Sangcheol Sim, <b>Steve Andreas Immanuel</b>, Junhyuk Heo, Darongsae Kwon<br/>
+        <a href="https://www.2026.ieeeigarss.org/">IEEE International Geoscience and Remote Sensing Symposium</a>, 2026<br/>
+      </td>
+    </tr>
+    <tr>
       <td><img src='/assets/images/pubs/igarss.png'></td>
       <td>
         <a href="https://arxiv.org/abs/2506.01234">Fourier-Modulated Implicit Neural Representation for Multispectral Satellite Image Compression</a><br/>
@@ -46,7 +63,7 @@ I also have expertise in the following domains: semantic segmentation, few-shot 
       <td>
         <a href="https://steveimm.id/rs-paint/">Tackling Few-Shot Segmentation in Remote Sensing via Inpainting Diffusion Model</a><br/>
         <b>Steve Andreas Immanuel</b>, Woojin Cho, Junhyuk Heo, and Darongsae Kwon<br/>
-        <a href="https://ml-for-rs.github.io/iclr2025/">ICLR Machine Learning for Remote Sensing Workshop</a> <b style="color: #cf2e1f">(Best Paper Award)</b>, 2025
+        <a href="https://ml-for-rs.github.io/iclr2025/">ICLR Machine Learning for Remote Sensing Workshop</a> <b style="color: #cf2e1f">(Best Paper)</b>, 2025
       </td>
     </tr>
     <tr>
